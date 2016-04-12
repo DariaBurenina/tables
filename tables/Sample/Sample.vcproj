@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="tables"
-	ProjectGUID="{3232C245-4C17-438D-A15F-A20AD15A2D00}"
-	RootNamespace="tables"
+	Name="Sample"
+	ProjectGUID="{0CB99061-20C9-4846-ACBC-31317AEDD725}"
+	RootNamespace="Sample"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="../../../include"
+				AdditionalIncludeDirectories="../../../tables;../../../include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -61,8 +61,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="Tables.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="../Debug"
+				AdditionalLibraryDirectories="../Debag"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -173,7 +174,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\tables.cpp"
+				RelativePath=".\main.cpp"
 				>
 			</File>
 		</Filter>
@@ -182,10 +183,6 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-			<File
-				RelativePath=".\tables.h"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"

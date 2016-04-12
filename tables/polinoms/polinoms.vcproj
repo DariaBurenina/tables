@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="tables"
-	ProjectGUID="{3232C245-4C17-438D-A15F-A20AD15A2D00}"
-	RootNamespace="tables"
+	Name="polinoms"
+	ProjectGUID="{D4C2AE02-D5D2-4F49-828A-FC9A3E1FB05C}"
+	RootNamespace="polinoms"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -62,7 +62,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="../Debug"
+				AdditionalLibraryDirectories=""
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -173,7 +173,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\tables.cpp"
+				RelativePath=".\monom.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\polinom.cpp"
 				>
 			</File>
 		</Filter>
@@ -183,7 +187,11 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\tables.h"
+				RelativePath=".\monom.h"
+				>
+			</File>
+			<File
+				RelativePath=".\polinom.h"
 				>
 			</File>
 		</Filter>

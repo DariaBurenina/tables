@@ -1,4 +1,6 @@
-#include <tables.h>
+#include "tables.h"
 
 int main()
-{return 0;}
+{
+	return 0;
+}

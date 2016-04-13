@@ -1,4 +1,7 @@
-#include <gtest.h>
-#include <tables.h>
+#include "gtest.h"
+#include "tables.h"
+
+void sample()
+{}
 
 

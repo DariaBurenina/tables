@@ -3,9 +3,12 @@
 // Поиск монома, Сложение полиномов(слияние упорядоченных списков), 
 // Умножение полиномов
 
-#include "monom.h"
+
 #ifndef __POLINOM_H_
 #define __POLINOM_H_
+
+#include "monom.h"
+
 
 class PolinomNode
 {
